@@ -1,0 +1,3 @@
+rails generate scaffold Ingredient name:string --no-test-framework
+rails generate scaffold Recipe name:string --no-test-framework
+rails generate scaffold RecipeIngredient recipe:references ingredient:references --no-test-framework
